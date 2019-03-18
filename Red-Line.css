@@ -43,6 +43,48 @@
     max-width: 150%;
       }
 
+
+
+
+.H-middle {
+  display:grid;
+    background-color: rgb(159, 197, 55);
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto;
+}
+
+.H-middle h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.h-m-t {
+  }
+
+.h-m-l {
+  text-align: center;
+  padding-top: 12%;
+  padding-left: 18%;
+  padding-bottom: 12%;
+}
+
+.h-m-m {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 12%;
+  padding-bottom: 12%;
+      }
+
+.h-m-r {
+  word-wrap: break-word;
+  text-align: center;
+  padding-top: 12%;
+  margin-right: 18%;
+  padding-bottom: 12%;
+  }
+
 .H-footer {
   display:grid;
   grid-template-columns: 35% 30% 35%;
