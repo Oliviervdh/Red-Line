@@ -40,6 +40,7 @@
 }
 
 .home-right img {
+  overflow: hidden;
     max-width: 150%;
       }
 
@@ -99,9 +100,27 @@
 }
 
 .h-f-m {
-  padding-top: 12%;
+  padding-top: 35%;
+  padding-left: 25%;
   align-items: center;
     }
+
+.h-f-m ul {
+  margin: 0;
+  padding: 0;
+}
+
+.h-f-m li {
+  display: inline-block;
+  margin: 6px;
+}
+
+.h-f-m li a{
+  color: black;
+  text-decoration: none;
+  font-size: 45px;
+}
+
 
 .h-f-r {
   padding-top: 12%;
