@@ -2,6 +2,8 @@
   background-color: rgb(240, 239, 237)!important;
 }
 
+
+/* start of home page*/
 .home-full {
   display: grid;
   grid-template-columns: 65% 35%;
@@ -17,8 +19,6 @@
     font-size: 50px;
     font-weight: bolder;
   }
-
-
 
   .home-left h2 {
     text-transform: uppercase;
@@ -45,8 +45,6 @@
       }
 
 
-
-
 .H-middle {
   display:grid;
     background-color: rgb(159, 197, 55);
@@ -55,13 +53,10 @@
 }
 
 .H-middle h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: white;
 }
-
-.h-m-t {
-  }
 
 .h-m-l {
   text-align: center;
@@ -126,4 +121,13 @@
   padding-top: 12%;
   padding-right: 18%;
   text-align: right;
+}
+/* end of home page */
+
+
+/* start of home page */
+.contact-middle {
+  display: grid;
+  grid-auto-columns: 40% 60%;
+  grid-template-rows: auto;
 }
