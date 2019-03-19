@@ -2,6 +2,14 @@
   background-color: rgb(240, 239, 237)!important;
   }
 
+  p {
+    color: rgb(75, 73, 73);
+  }
+
+  h1 h2 {
+    font-family: fantasy;
+  }
+
 
 /* start of home page*/
 .home-full {
@@ -56,6 +64,10 @@
   font-size: 25px;
   font-weight: bold;
   color: white;
+}
+
+.H-middle p {
+  color: black;
 }
 
 .h-m-l {
@@ -133,10 +145,14 @@
     }
 
 .c-m-l {
-  margin-top: 5%;
+  margin-top: 7%;
   margin-left: 10%;
 }
 
+.c-m-l a {
+  color: rgb(159, 197, 55);
+  text-decoration: underline;
+}
 
 
 .contact {
@@ -165,6 +181,7 @@
    width: 87%;
    height: 300px;
    margin-left: 6%;
+   margin-bottom: 20px;
    box-sizing: border-box;
    border-radius: 5px;
    outline: none;
@@ -174,4 +191,19 @@
 .contact-footer {
   display: grid;
   grid-template-rows: 100%;
+}
+
+.btn {
+  float: right;
+  width: 250px;
+  height: 50px;
+  background: rgb(159, 197, 55);
+  text-align: center;
+  line-height: 36px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 5px;
 }
