@@ -125,9 +125,53 @@
 /* end of home page */
 
 
-/* start of home page */
+/* start of contact page */
+
 .contact-middle {
   display: grid;
-  grid-auto-columns: 40% 60%;
-  grid-template-rows: auto;
+  grid-template-columns: 40% 60%;
+    }
+
+.c-m-l {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+
+
+.contact {
+  margin-top: 5%;
+  margin-left: 10% }
+
+.contact {
+  width: 650px;
+  height: 650px;
+  margin-top: 5%;
+  background: rgb(238, 238, 238);
+  box-sizing: border-box;
+  }
+
+.input {
+  width: 49%;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+    }
+
+.login {
+  padding: 40px;
+}
+
+.msg .area {
+   width: 87%;
+   height: 300px;
+   margin-left: 6%;
+   box-sizing: border-box;
+   border-radius: 5px;
+   outline: none;
+   transition: all 0.5s ease;
+}
+
+.contact-footer {
+  display: grid;
+  grid-template-rows: 100%;
 }
