@@ -215,9 +215,30 @@
   border-radius: 5px;
 }
 
+.btn:hover {
+  color: white;
+  background-color: black;
+  transition:  600ms ease;
+  -webkit-transition: -webkit-filter 600ms ease;
+}
+
 .input:focus,
 .msg .area:focus{
   border: 2px solid rgb(159, 197, 55);
-  border-radius: 5px;
+  border-radius: 5px; }
+
+.contact-footer {
+  cursor: pointer;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition:  600ms ease;
+  -webkit-transition: -webkit-filter 600ms ease;
 }
+
+.contact-footer:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
 /* End of contact page */
