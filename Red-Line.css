@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
+
+
+
 .navbar {
   background-color: rgb(240, 239, 237)!important;
   }
 
   p {
+    font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(75, 73, 73);
   }
 
-  h1 h2 {
-    font-family: fantasy;
+  h1, h2 {
+    font-family: 'Open Sans', sans-serif;
   }
 
 
@@ -195,6 +200,7 @@
 
 .btn {
   float: right;
+  margin-right: 20px;
   width: 250px;
   height: 50px;
   background: rgb(159, 197, 55);
@@ -207,3 +213,10 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid rgb(159, 197, 55);
+  border-radius: 5px;
+}
+/* End of contact page */
