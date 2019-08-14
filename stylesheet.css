@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
 
-
-.navbar {
+/*dynamic navbar */
+.open {
+  transition: 0.7s;
   background-color: rgb(240, 239, 237)!important;
+  height: 140px;
   }
+
+.logo{
+  transition: 0.7s;
+  height: 115px !important;
+}
+
+.nav-scroll {
+  transition: 0.7s;
+  height: 100px !important;
+}
+
+.logo-scroll{
+  transition: 0.7s;
+  height: 85px !important;
+}
+/*dynamic navbar */
+
+
 
   p {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -31,7 +51,7 @@
   grid-template-columns: 65% 35%;
   grid-template-rows: auto;}
 
-  p.tel {
+.tel {
     color: white;
     background-color: rgb(159, 197, 55);
     font-size: 40px;
@@ -43,11 +63,13 @@
     padding-right: 60px;
   }
 
-p.tel:hover {
+.tel:hover {
+  color: white;
+  text-decoration: none;
   cursor: pointer;
   background-color: black;
   opacity: 0.8;
-  filter: alpha(opacity=100)
+  filter: alpha(opacity=100);
   transition:  600ms ease;
   -webkit-transition: -webkit-filter 600ms ease;
 }
@@ -97,6 +119,11 @@ p.tel:hover {
   color: white;
 }
 
+.H-middle h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .H-middle p {
   color: black;
 }
@@ -129,7 +156,6 @@ p.tel:hover {
   grid-template-columns: 35% 30% 35%;
   grid-template-rows: 220px;
   background-color: rgb(240, 239, 237);
-
 }
 
 .H-middle2 {
@@ -147,11 +173,21 @@ p.tel:hover {
   color: rgb(159, 197, 55);
 }
 
-
-
 .h-f-l {
   padding-top: 12%;
   padding-left: 18%;
+}
+
+#contacteer-ons {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 32px;
+  color: rgb(75, 73, 73);
+  text-decoration: none;
+}
+
+#contacteer-ons:hover {
+  color: rgb(159, 197, 55);
+  cursor: pointer;
 }
 
 .h-f-m {
@@ -181,8 +217,17 @@ p.tel:hover {
   text-align: right;
 }
 
+#openings-uren {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 32px;
+  color: rgb(75, 73, 73);
+  text-decoration: none;
+}
 
-
+#openings-uren:hover {
+  color: rgb(159, 197, 55);
+  cursor: pointer;
+}
 /* end of home page */
 
 
@@ -201,6 +246,9 @@ p.tel:hover {
 
 .c-m-l a {
   color: rgb(159, 197, 55);
+  }
+
+.c-m-l a:hover{
   text-decoration: underline;
 }
 
@@ -295,3 +343,5 @@ p.tel:hover {
 .nav-item:hover, .active:hover {
     background-color: rgb(159, 197, 55);
 }
+
+
