@@ -1,14 +1,22 @@
-Hello Dear readers. 
+# Red-Line Project
 
-This is the readme for our first individual project: "The Red Line project"
+The Red line project / bad website transformation.
 
-We got the task to look for bad website that needed a make over badly.
+## description
 
-The website that I was given is :www.grondwerkendesaegher.be, they are a landscaping company located in Sint-Niklaas Belgium. 
+This project was one of our first individual project where we needed to put what we learned to the test, 
 
-After consulting with the client we came up with a mockup for the transformation of the website,
-the end result came out like this: https://ollivdh.github.io/Red-Line/. 
+We all got the task to look for a bad website that needed a make over badly.
+
+The website that I was given was: www.grondwerkendesaegher.be They are a landscaping company located in Sint-Niklaas Belgium. 
+
+After consulting with the "client: Coach" I came up with a mockup for the transformation of the website.
+The end result came out like this: https://ollivdh.github.io/Red-Line/. 
+
+## technologies
+
+The technologies used for this project are HTML, CSS and some basic Javascript.
 
 Thanks for reading! 
 
-Peace out, Olli.
+
