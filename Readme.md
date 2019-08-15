@@ -11,7 +11,7 @@ We all got the task to look for a bad website that needed a make over badly.
 The website that I was given was: www.grondwerkendesaegher.be They are a landscaping company located in Sint-Niklaas Belgium. 
 
 After consulting with the "client: Coach" I came up with a mockup for the transformation of the website.
-The end result came out like this: https://ollivdh.github.io/Red-Line/. 
+The end result came out like this: https://oliviervdh.github.io/Red-Line-bad-website-transformation/. 
 
 ## technologies
 
